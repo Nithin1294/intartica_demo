@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    width: 1440px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-logo{
+    width: 166px;
+    height: 62px;
+    /* flex-shrink: 0; */
+}
+
+.option{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-btn{
+    margin: 8px 16px;
+}
