@@ -1,0 +1,57 @@
+.red{
+    color: #E52B50;
+    font-feature-settings: 'liga' off;
+    padding-left: 55px;
+
+    /* Body sm/tracking-widest/SemiBold */
+    font-family: Outfit;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 1.4px;
+}
+.about-heading{
+    color: var(--neutral-900, #2C2C2C);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-feature-settings: 'liga' off;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px; /* 150% */
+    letter-spacing: -1.2px;
+}
+.about-heading1{
+    color: #E52B50;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-feature-settings: 'liga' off;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: -1.2px;
+}
+.about-container{
+    height: 70vh;
+    width: 85vh;
+    padding-left: 80px;
+}
+.about-para{
+    color: var(--neutral-700, #444);
+    font-feature-settings: 'liga' off;
+
+    /* Body lg/Light */
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px; /* 177.778% */
+}
+.img1{
+    background:  lightgray -24.645px -224.787px / 266.98% 146.422% no-repeat;
+    height: 440px;
+    width: 295px;
+    padding: 30px;
+}

@@ -1,0 +1,37 @@
+.typography{
+    color: var(--neutral-900, #2C2C2C);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-feature-settings: 'liga' off;
+
+    /* Display xl/Regular */
+    font-family: Playfair Display;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px; /* 120% */
+    letter-spacing: -1.5px;
+}
+.spaces{
+    color: var(--neutral-900, #2C2C2C);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-feature-settings: 'liga' off;
+    font-family: Playfair Display;
+    font-size: 45px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: -1.5px;
+}
+.transcend{
+    color: #E52B50;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-feature-settings: 'liga' off;
+
+    /* Display xl/Regular */
+    font-family: Playfair Display;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: -1.5px;
+}
