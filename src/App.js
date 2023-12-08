@@ -7,8 +7,8 @@ import ServiceSection from './components/servicesection';
 import Cardcontainer from './components/cardcontainer';
 import Recentwork from './components/recentwork';
 import Imagesection from './components/imagesection';
-
-
+import Lastsection from './components/lastsection';
+import Foot from './components/foot';
 
 
 function App() {
@@ -22,6 +22,8 @@ function App() {
       <Cardcontainer/>
       <Recentwork/>
       <Imagesection/>
+      <Lastsection/>
+      <Foot/>
 
     </div>
   );

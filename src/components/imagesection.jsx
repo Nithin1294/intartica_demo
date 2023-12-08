@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './imagesection.css';
 
+
 class Imagesection extends Component {
     state = {  } 
     render() { 
@@ -17,6 +18,7 @@ class Imagesection extends Component {
                     <h1 className='typo'>Residence Swimming Pool</h1>
                     <p className='para'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/> Faucibus fringilla dui amet faucibus nam.</p>
                 </div>
+                
             </div>
             
         );
