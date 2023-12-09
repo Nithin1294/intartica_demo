@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Icon } from '@iconify/react';
 import './cardcontainer.css';
 
 
@@ -12,10 +13,11 @@ class Cardcontainer extends Component {
         return (
             <div className='d-flex pad'>
             <div className='cc'>
-                 
+
+                <Icon icon="carbon:building" className='styling mb-5'/>
+
                 <h className='heading'>Canvas for Architects</h>
-                <p className='para'>Join forces with us to craft spaces that leave a lasting impression. Benefit from our Project Management Consultancy support, showcase your work in our maintained gallery, and engage in collaborative discussions to ensure a holistic approach.</p>
-                
+                <p className='para'>Join forces with us to craft spaces that leave a lasting impression. Benefit from our Project Management Consultancy support, showcase your work in our maintained gallery, and engage in collaborative discussions to ensure a holistic approach.</p>  
             </div>
             <div className='cc'>
             
