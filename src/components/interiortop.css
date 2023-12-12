@@ -1,0 +1,30 @@
+.crashed{
+    width: 905px;
+    height: 650px;
+    flex-shrink: 0;
+    
+}
+.interior-h{
+    color: #1F1F1F;
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 5px;
+    margin-top: 15px;
+}
+.interior-p{
+    color: #545454;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 165.2%; /* 46.256px */
+}
+.cv{
+    margin : 25px;
+}
+.button{
+    width: 175px;
+}

@@ -1,0 +1,38 @@
+.about-heading{
+    color: var(--neutral-900, #2C2C2C);
+    font-family: Playfair Display;
+    font-size: 68px;
+    font-weight: 400;
+    line-height: 72px; /* 150% */
+    letter-spacing: -1.2px;
+    width: 938px;
+}
+
+
+.about-para{
+    color: var(--neutral-700, #444);
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px; 
+    width: 630px;
+    height: 178px;
+    flex-shrink: 0;
+}
+
+.aimg{
+    width: 450px;
+    height: 250px;
+    flex-shrink: 0;
+    margin-left: 320px;
+    margin-top: 20px;
+}
+.img1{
+    width: 450px;
+    height: 360px;
+    flex-shrink: 0;
+    margin-left: 180px;
+    margin-top: 10px;
+
+}

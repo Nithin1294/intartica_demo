@@ -9,6 +9,11 @@ import Recentwork from './components/recentwork';
 import Imagesection from './components/imagesection';
 import Lastsection from './components/lastsection';
 import Foot from './components/foot';
+import Aboutnav from './components/aboutnav';
+import Essencecard from './components/Essencecard';
+import Interiortop from './components/interiortop';
+import Interiorbottom from './components/interiorbottom';
+
 
 
 function App() {
@@ -24,6 +29,10 @@ function App() {
       <Imagesection/>
       <Lastsection/>
       <Foot/>
+      <Aboutnav/>
+      <Essencecard/>
+      <Interiortop/>
+      <Interiorbottom/>
 
     </div>
   );
