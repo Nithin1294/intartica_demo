@@ -13,6 +13,9 @@ import Aboutnav from './components/aboutnav';
 import Essencecard from './components/Essencecard';
 import Interiortop from './components/interiortop';
 import Interiorbottom from './components/interiorbottom';
+import Dream from './components/dream';
+import Crafting from './components/crafting';
+
 
 
 
@@ -32,7 +35,10 @@ function App() {
       <Aboutnav/>
       <Essencecard/>
       <Interiortop/>
+      <Dream/>
+      <Crafting/>
       <Interiorbottom/>
+          
 
     </div>
   );
