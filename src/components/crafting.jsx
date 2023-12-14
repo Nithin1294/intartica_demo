@@ -15,9 +15,7 @@ class Crafting extends Component {
                     <div className='d-flex pl-5'>
                     <p>
                         <Icon icon="material-symbols:lightbulb-circle" className='styling1'/><br/>
-                        |<br/>
-                        |<br/>
-                        |
+                        
                     </p>
                 <div>
                     <h4>Dream Consultation </h4>
@@ -28,9 +26,7 @@ class Crafting extends Component {
                 <div className='d-flex pl-5'>
                     <p>
                     <Icon icon="material-symbols:lightbulb-circle" className='styling1'/><br/>
-                        |<br/>
-                        |<br/>
-                        |
+                       
                     </p>
                 <div>
                     <h4>Design Blueprint</h4>
@@ -41,9 +37,7 @@ class Crafting extends Component {
                 <div className='d-flex pl-5'>
                     <p>
                         <Icon icon="icon-park-solid:check-one" className='styling1'/><br/>
-                        |<br/>
-                        |<br/>
-                        |
+                       
                     </p>
                 <div>
                     <h4>Seamless Transformation</h4>

@@ -1,0 +1,54 @@
+.button-red{
+    width: 476px;
+    height: 135px;
+    flex-shrink: 0;
+    background: #E52B50;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+.button-blue{
+    display: flex;
+    width: 186px;
+    height: 81px;
+    margin-top: 250px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    background: #5F65F4;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.h4{
+    width: 906px;
+    height: 79px;
+    flex-shrink: 0;
+    color: #090A14;
+    padding-left: 35px;
+    font-family: Gotham;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.h1{
+    width: 913px;
+    height: 145px;
+    flex-shrink: 0;
+    color: #E52B50;
+    font-family: Raleway;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px; /* 116.667% */    
+    padding-left: 35px;
+}

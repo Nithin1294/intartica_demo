@@ -15,6 +15,7 @@ import Interiortop from './components/interiortop';
 import Interiorbottom from './components/interiorbottom';
 import Dream from './components/dream';
 import Crafting from './components/crafting';
+import Button from './components/button';
 
 
 
@@ -38,7 +39,7 @@ function App() {
       <Dream/>
       <Crafting/>
       <Interiorbottom/>
-          
+      <Button/>
 
     </div>
   );

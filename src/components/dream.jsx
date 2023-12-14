@@ -12,9 +12,7 @@ class Dream extends Component {
                     <div className='d-flex'>
                     <p>
                         <Icon icon="material-symbols:lightbulb-circle" className='styling'/>
-                        |<br/>
-                        |<br/>
-                        |
+                        
                     </p>
                 <div>
                     <h4>Turning Dreams into Reality: Our Mission</h4>
@@ -24,9 +22,7 @@ class Dream extends Component {
                 <div className='d-flex'>
                     <p>
                     <Icon icon="material-symbols:lightbulb-circle" className='styling'/> <br/>
-                        |<br/>
-                        |<br/>
-                        |
+                        
                     </p>
                 <div>
                     <h4>Our Beliefs: Elevating Your Dreams</h4>
@@ -37,9 +33,7 @@ class Dream extends Component {
                 <div className='d-flex'>
                     <p>
                         <Icon icon="icon-park-solid:check-one" className='styling'/> <br/>
-                        |<br/>
-                        |<br/>
-                        |
+                        
                     </p>
                 <div>
                     <h4>Turning Dreams into Reality: Our Vision</h4>
