@@ -28,7 +28,7 @@
     font-weight: 600;
     line-height: normal;
 }
-.h4{
+.heading-m{
     width: 906px;
     height: 79px;
     flex-shrink: 0;
@@ -40,7 +40,7 @@
     font-weight: 700;
     line-height: normal;
 }
-.h1{
+.heading-h{
     width: 913px;
     height: 145px;
     flex-shrink: 0;

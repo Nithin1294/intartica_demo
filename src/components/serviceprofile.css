@@ -1,0 +1,24 @@
+.service-number{
+    color: #E52B50;
+    font-family: Eudoxus Sans;
+    font-size: 82.68px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 107.484px */
+}
+.service-heading{
+    color: var(--Text-Color, #151411);
+    font-family: Poppins;
+    font-size: 49.689px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 64.595px */
+}
+.serivce-para{
+    color: #37353E;
+    font-family: Eudoxus Sans;
+    font-size: 23.254px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%; /* 41.857px */
+    }

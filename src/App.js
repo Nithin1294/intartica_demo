@@ -16,6 +16,8 @@ import Interiorbottom from './components/interiorbottom';
 import Dream from './components/dream';
 import Crafting from './components/crafting';
 import Button from './components/button';
+import Ser01 from './components/Ser01';
+import ServiceProfile from './components/ServiceProfile';
 
 
 
@@ -40,7 +42,8 @@ function App() {
       <Crafting/>
       <Interiorbottom/>
       <Button/>
-
+      <Ser01/>
+      <ServiceProfile/>
     </div>
   );
 }

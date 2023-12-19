@@ -9,7 +9,7 @@ class Dream extends Component {
             <div className='d-flex p-5'>
                 <div>
                     <h1 className='dream-heading'>Designing Your Dream in <br/>Three Simple Steps</h1>
-                    <div className='d-flex'>
+                    <div className='d-flex mt-5'>
                     <p>
                         <Icon icon="material-symbols:lightbulb-circle" className='styling'/>
                         

@@ -4,7 +4,7 @@ class Button extends Component {
     state = {  } 
     render() { 
         return (
-            <div  className='d-flex '>
+            <div  className='d-flex pl-5'>
                 <div >
                 <div >
                     <button className='button-red'>Windows</button>
@@ -21,8 +21,8 @@ class Button extends Component {
                 </div>
                 <div>
                     <div>
-                    <h4 className='h4'>For Builders: Building Dreams with Precision</h4>
-                    <h1 className='h1'>Transforming Structures into Spectacles</h1>
+                    <h4 className='heading-m'>For Builders: Building Dreams with Precision</h4>
+                    <h1 className='heading-h'>Transforming Structures into Spectacles</h1>
                     </div>
                     <div className='pl-5'>
                     <button className='button-blue'>More Details</button>
