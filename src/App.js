@@ -1,23 +1,8 @@
 import './App.css';
-import Header from './components/header';
-import Welcome from './components/welocme';
-import Carousel from './components/carousel';
-import AboutSection from './components/aboutsection';
-import ServiceSection from './components/servicesection';
-import Cardcontainer from './components/cardcontainer';
-import Recentwork from './components/recentwork';
-import Imagesection from './components/imagesection';
-import Lastsection from './components/lastsection';
-import Foot from './components/foot';
-import Aboutnav from './components/aboutnav';
-import Essencecard from './components/Essencecard';
-import Interiortop from './components/interiortop';
-import Interiorbottom from './components/interiorbottom';
-import Dream from './components/dream';
-import Crafting from './components/crafting';
-import Button from './components/button';
-import Ser01 from './components/Ser01';
-import ServiceProfile from './components/ServiceProfile';
+import Build from './components/Build';
+import BuildCard from './components/BuildCard';
+import Work from './components/work';
+
 
 
 
@@ -25,25 +10,9 @@ import ServiceProfile from './components/ServiceProfile';
 function App() {
   return (
     <div>
-      <Header/>
-      <Welcome/>
-      <Carousel/>
-      <AboutSection/>
-      <ServiceSection/>
-      <Cardcontainer/>
-      <Recentwork/>
-      <Imagesection/>
-      <Lastsection/>
-      <Foot/>
-      <Aboutnav/>
-      <Essencecard/>
-      <Interiortop/>
-      <Dream/>
-      <Crafting/>
-      <Interiorbottom/>
-      <Button/>
-      <Ser01/>
-      <ServiceProfile/>
+      <Build/>
+      <BuildCard/>
+      <Work/>
     </div>
   );
 }

@@ -1,0 +1,39 @@
+
+.build-img{
+    height: 400px;
+    width: 700px;
+    
+}
+
+
+.right-container {
+    
+    align-items: space-between;
+}
+.right-container h1{
+    font-family: Work Sans;
+    color: #201F1D;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 48px; 
+
+}
+.right-container p{
+    color: #4F4F4F;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 34px; 
+    font-family: Work Sans;
+    line-height: 34px;
+}
+.build-button{
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px; 
+    width: 192px;
+    height: 64px;
+    flex-shrink: 0;
+    background: #E52B50;
+}
