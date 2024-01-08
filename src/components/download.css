@@ -1,0 +1,29 @@
+.four h1{
+    color: #41303E;
+    text-align: center;
+    font-family: Gotham Black;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px; 
+
+}
+.four .iconn{
+    width: 50px;
+    height: 50px;
+    fill: #000;
+    flex-direction: column;
+    justify-content: center;
+}
+.four button{
+    border-radius: 24px;
+    background: #EB595F;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+}
