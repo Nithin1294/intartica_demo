@@ -5,10 +5,10 @@ class  Download extends Component {
     state = {  } 
     render() { 
         return (
-            <div className='four'>
+            <div className='step-four '>
                 <h1>Your estimate is almost ready</h1>
                 <div className='iconn d-flex'>
-                <Icon icon="material-symbols:download" className='iconn '/>
+                <Icon icon="material-symbols:download" className='step-icon '/>
                 </div>
                 <button>Download the pdf</button>
 

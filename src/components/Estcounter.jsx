@@ -13,6 +13,7 @@ class Estcounter extends Component {
     render() {
         const { count } = this.state 
         return (
+            <>
             <div className='m-container text-center'>
                 <h1>Select the rooms you’d like us to design</h1>
                 <p>To know more about this, <span className=' s'>click here</span></p>
@@ -61,14 +62,14 @@ class Estcounter extends Component {
                 </div>
 
                 </div>
-                <div className='d-flex c1'>
-                    <button className='btn l-button'>Back</button>
-                    <button className='btn r-button'>Next</button>
-                </div>
+               
                 
-                
-
             </div>
+            <div className='d-flex c1'>
+            <button className='btn l-button1'>Back</button>
+            <button className='btn r-button1'>Next</button>
+        </div>
+        </>
  );
     }
 }

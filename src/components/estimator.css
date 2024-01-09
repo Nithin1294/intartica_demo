@@ -1,4 +1,12 @@
-.one h1{
+.step-one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+
+}
+.step-one h1{
     width: 187.986px;
     height: 23.5px;
     color: #41303E;
@@ -9,7 +17,7 @@
     line-height: 28px; 
     
 }
-.one p{
+.step-one p{
     color: #41303E;
     text-align: center;
     font-family: Roboto;
@@ -20,7 +28,7 @@
     height: 19px;
     
 }
-.one .span {
+.step-one .span {
     color: #EB595F;
     font-family: Roboto;
     font-size: 16px;
@@ -29,7 +37,7 @@
 
 }
 
-.one .cc{
+.step-one .cc{
     border-radius: 4px;
     border: 2px solid #FFF;
     background: rgba(255, 255, 255, 0.00);
@@ -38,7 +46,7 @@
     margin: 10px;
     
 }
-.one .cc h1{
+.step-one .cc h1{
     color: #5E455A;
     font-family: Roboto;
     font-size: 16px;
@@ -48,7 +56,7 @@
     width: 44.675px;
     height: 24px;
 }
-.one .cc .left-button{
+.left-button{
     color: #E52B50;
     text-align: center;
     font-family: Roboto;
@@ -58,9 +66,10 @@
     line-height: 24px; 
     letter-spacing: 0.75px;
     text-transform: uppercase;
+    
 
 }
-.one .cc .right-button{
+.right-button{
     border-radius: 24px;
     opacity: 0.6;
     background: #E01859;
@@ -74,7 +83,7 @@
     letter-spacing: 0.75px;
     text-transform: uppercase;
 }
-.one .cc .c1{
+.c1{
     
     justify-content: space-between;
 }

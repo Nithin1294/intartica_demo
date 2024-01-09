@@ -5,9 +5,10 @@ class Estimator extends Component {
     render() { 
         return (
             <>
-            <div className='one text-center'>
+           
+            <div className='step-one text-center'>
                 <h1>Select your BHK type</h1>
-                <p>To know more about this, <span className='one span'>click here</span></p>
+                <p>To know more about this, <span className='step-one span'>click here</span></p>
                 
                 <div className='cc d-flex flex-column'>
                     <div className='cc'>
@@ -30,16 +31,18 @@ class Estimator extends Component {
                     <input type='radio' id='radio5'/>
                     <label for='radio5'>5 BHK+</label>
                     </div>
-                    <div className='d-flex c1'>
-                    <button className='btn left-button'>Back</button>
-                    <button className='btn right-button'>Next</button>
-                </div>
+                   
                     
                    
 
                 </div>
-                
+               
                 </div> 
+                <div className='d-flex c1'>
+                    <button className='btn left-button'>Back</button>
+                    <button className='btn right-button'>Next</button>
+                </div>
+               
                 
                 
            

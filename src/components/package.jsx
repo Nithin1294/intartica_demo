@@ -7,7 +7,7 @@ class Package extends Component {
             <div className='d-flex flex-column m-5'>
                 
             
-            <div className='three text-center '>
+            <div className='step-three text-center '>
                 <h1>Pick your package</h1>
                 <div className='card1'>
                 
