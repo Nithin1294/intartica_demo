@@ -1,8 +1,6 @@
 import './App.css';
-import Estimator from './components/Estimator';
-import Estcounter from './components/Estcounter';
-import Package from './components/package';
-import Download from './components/Download';
+import Estimatorpart from './components/Estimatorpart';
+
 
 
 
@@ -14,10 +12,9 @@ function App() {
     <div>
    
       
-      <Estimator/>
-      <Estcounter/>
-      <Package/>
-      <Download/>
+      <Estimatorpart/>
+     
+      
      
     </div>
   );
