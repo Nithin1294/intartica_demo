@@ -53,11 +53,7 @@ class Package extends Component {
                
             </div>
             </form>
-            <div className='d-flex center'>
-                <button className='btn but'>Back</button>
-                <button className='btn butt'>Next</button>
-
-            </div>
+           
             
                </div>
         );

@@ -65,10 +65,7 @@ class Estcounter extends Component {
                
                 
             </div>
-            <div className='d-flex c1'>
-            <button className='btn l-button1'>Back</button>
-            <button className='btn r-button1'>Next</button>
-        </div>
+            
         </>
  );
     }

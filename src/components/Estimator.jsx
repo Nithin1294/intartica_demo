@@ -9,9 +9,9 @@ class Estimator extends Component {
            
             <div className='step-one text-center'>
                 <h1>Select your BHK type</h1>
-                <p>To know more about this, <span className='step-one span'>click here</span></p>
+                <p>To know more about this, <span className='span'>click here</span></p>
                 
-                <div className='cc  d-flex flex-column'>
+                <div className='d-flex flex-column'>
                     <form>
                     <div className='cc'>
                     <input type='radio' id='radio1' name="bhk" />
@@ -40,11 +40,7 @@ class Estimator extends Component {
                 </div>
                
                 </div> 
-                <div className='d-flex c1'>
-                    <button className='btn left-button'>Back</button>
-                     <button className='btn right-button'>Next</button> 
-                </div>
-               
+                
                 
                 
            
