@@ -11,7 +11,7 @@
     
 
 }
-.right-button{
+button{
     border-radius: 24px;
     opacity: 0.6;
     background: #E01859;
@@ -24,4 +24,9 @@
     line-height: 24px; 
     letter-spacing: 0.75px;
     text-transform: uppercase;
+}
+button:hover{
+    background-color: #E01859;
+   
+
 }

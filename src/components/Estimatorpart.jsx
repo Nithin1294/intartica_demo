@@ -9,9 +9,12 @@ import Estimator from './Estimator';
 import Estcounter from './Estcounter';
 import Package from './package';
 import Download from './Download';
+
 import "./Estimatorpart.css";
 
 const steps = ['BHK Type', 'Rooms to design', 'Package', 'Get Quote'];
+
+
 
 export default function HorizontalLinearStepper() {
   const [activeStep, setActiveStep] = React.useState(0);
@@ -60,22 +63,35 @@ export default function HorizontalLinearStepper() {
   };
 
   return (
-    <Box sx={{ width: '100%' }}>
+    
+    <Box sx={{ width: '100%',position: 'relative'  }}>
+
+      
+      <Typography
+        variant="subtitle1"
+        sx={{ position: 'absolute', top: 0, right: 0, margin: 2 }}
+      >
+        Step {activeStep + 1} of {steps.length}
+      </Typography>
       <Stepper activeStep={activeStep}>
         {steps.map((label, index) => {
           const stepProps = {};
           const labelProps = {};
           if (isStepOptional(index)) {
             labelProps.optional = (
-              <Typography variant="caption">Optional</Typography>
+              <Typography variant="caption"></Typography>
             );
           }
           if (isStepSkipped(index)) {
             stepProps.completed = false;
           }
           return (
-            <Step key={label} {...stepProps}>
-              <StepLabel {...labelProps}>{label}</StepLabel>
+            <Step key={label} {...stepProps}
+            sx={{ backgroundColor: 'white', '& .MuiStepIcon-root': { color: '#E52B50', margin: '38px' } }}>
+              <StepLabel {...labelProps}
+               sx={{ backgroundColor: 'white', '& .MuiStepIcon-root': { color: '#E52B50', margin: '38px' } }}>
+               
+		{label}</StepLabel>
             </Step>
           );
         })}
@@ -102,7 +118,7 @@ export default function HorizontalLinearStepper() {
               color="inherit"
               disabled={activeStep === 0}
               onClick={handleBack}
-              sx={{ mr: 1 }}
+              sx={{ mr: 1 ,color:'#E01859'}}
              
             >
               Back
@@ -114,7 +130,7 @@ export default function HorizontalLinearStepper() {
               </Button>
             )}
 
-            <Button  className="right-button" onClick={handleNext}>
+            <Button sx={{ backgroundColor: '#E01859',color:'white' ,'&:hover':{backgroundColor:'#E52B50'}}}  onClick={handleNext}>
               {activeStep === steps.length - 1 ? 'Finish' : 'Next'}
             </Button>
           </Box>
